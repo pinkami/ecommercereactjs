@@ -1,5 +1,5 @@
 # Ecommer con ReactJs/Tienda de Telefonos.
-Es un sitio web que lo realize en mi curso de reactJs, donde podes comprar dispositivos de distintas marcas, te muestra categorias de teléfonos Iphone, Samsung y otros, agregas al carrito y simula tu compra al bajar el stock de dicho producto, ya que los datos son traidos de firestore (que simula ser una base de datos), asi se trabajaria en un proyecto real donde los datos nos vienen del back-end.
+Sitio web donde podes comprar dispositivos de distintas marcas, te muestra categorias de teléfonos Iphone, Samsung y otros, agregas al carrito y simula tu compra al bajar el stock de dicho producto, ya que los datos son traidos de firestore (que simula ser una base de datos), asi se trabajaria en un proyecto real donde los datos nos vienen del back-end.
 
 <img src="./src/img/imgHome.png" alt="pantalla general de Inicio">
 
