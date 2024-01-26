@@ -1,0 +1,351 @@
+@media (min-width:320px){
+
+  /* estilos del navbar */
+  .style-nav{
+    color: white;
+    text-transform: uppercase;
+    align-items: baseline;
+    padding: 20px 0px;
+  }
+  .box-logo{
+    font-weight: 700;
+    font-size: x-large;
+    padding-left: 15px;
+  }
+  .link-nab-log{
+    text-decoration: none;
+    color: white;
+  }
+  .link-nab-log:hover{
+    color:black;
+  }
+  div ul li{
+    padding: 10px 10px;
+  }
+  .container-carrito{
+    position: relative;
+    padding-left: 10px;
+  }
+  .link-nab{
+    padding:12px 15px;
+    border-radius:3px;
+    color:aliceblue;
+    text-decoration: none;
+  }
+  .link-nab:hover{
+    padding: 10px 13px;
+    color: black;
+    border: 2px solid black;
+    font-weight: 600;
+  }
+  .icons{
+    color: white;
+    margin-left: 25px;
+    width: 25px;
+    height: 25px;
+  }
+  .icono-cart-cantidad{
+    position: absolute;
+    top: -16%;
+    left: 16%;
+    background-color:black;
+    border-radius: 50%;
+    padding:0px 6px;
+  }
+  /* estilos de componente intro */
+  .box-intro{
+    padding: 20px;
+    text-align: center;
+  }
+  .titulo{
+    font-weight: 700;
+    font-size: x-large;
+    color: black;
+  }
+  .text{
+    color: rgb(125, 125, 125);
+  }
+  /* estilos del footer */
+  .conteiner-footer{
+    padding: 50px 30px 5px 30px;
+    text-align: center;
+    color: white;
+  }
+  #titleFooter{
+    font-weight: 700;
+    font-size:xx-large;
+  }
+  h4{
+    font-weight: 600;
+    color: white;
+  }
+  .footer-father{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .box-children{
+    padding: 10px;
+    width: 300px;
+    color: rgb(238, 238, 237);
+  }
+  .card-box{
+    border-radius: 12px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .bg-color{
+    border-radius: 15px;
+    margin:25px;
+    padding: 10px;
+    background-color: rgb(179, 178, 178);
+  }
+  .card-body{
+    text-align: center;
+  }
+  .card-title{
+    font-weight:700 ;
+    font-size: 40px;
+  }
+  .conteiner-products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    padding: 0px 10px;
+  }
+  /* estilo del card de productos */
+  .conteiner-phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:#ade8f4;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 10px 5px;
+    width:160px;
+    text-align: center;
+  }
+  .imgCard{
+    border-radius: 15px;
+  }
+  .box-img{
+    width:100%;
+    border-radius: 15px;
+  }
+  .box-img:hover{
+    transition: all 1s;
+    transform: scale(1.1);
+  }
+  .title-h3-card{
+    padding-top: 10px;
+  }
+  .parraf-card-link{
+    text-align: center;
+    padding: 5px;
+    background-color: #0077b6;
+    border-radius:18px;
+  }
+  .card-link{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+  }
+  .card-link:hover{
+    color: white;
+  }
+  .title-five{
+    color: black;
+    font-weight: 600;
+  }
+  
+  /*Todos los estilo de la CardDetail estan aqui */
+  .container-detail{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:lightgray;
+    border-radius: 15px;
+    margin: 20px;
+  }
+  .container-picture-detail{
+    width: 400px;
+  }
+  .box-img-detailcard{
+    width: 100%;
+  }
+  .container-children-detail{
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  .box-button-father{
+    display: inline-block;
+    margin:0px 0px 15px 10px;
+  }
+  .text-precie{
+    color: black;
+    font-size: x-large;
+  }
+  .box-button{
+    display: flex;
+    justify-content: center;
+    padding: 6px 30px;
+    border-radius:20px;
+    border: 1px solid black;
+    text-align: center;
+  }
+  .button-Count{
+    padding: 1px 12px;
+    font-size: x-large;
+    background-color:lightgray ;
+  }
+  .box-cantidad{
+    padding: 10px;
+    font-size:large;
+    font-weight: 700;
+  }
+  /* estilos del formulario de contacto */
+  .container-form-father{
+    display: flex;
+    justify-content: center;
+  }
+  .container-form{
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    background-color: #4fb4ea;
+  }
+  .box-title-form{
+    text-align: center;
+  }
+  .title-form{
+    font-weight: 700;
+  }
+  input{
+    padding: 10px 40px;
+    border-radius: 12px;
+    border: 1px solid black;
+    margin: 5px;
+  }
+  /* estilos del componente Cart  */
+  .titleCart{
+    text-align: center;
+  }
+  .button-delete{
+    background-color: rgb(154, 28, 28);
+  }
+  .btn-vaciar-cart{
+    margin-left: 5px;
+  }
+  .container-cart-vacio{
+    text-align: center;
+  }
+  .picture-cart-vacio{
+    width: 100%;
+  }
+  .title-cart-vacio{
+    font-weight: 700;
+    color: darkgray;
+    padding: 10px;
+  }
+  .ring{
+    display: flex;
+    justify-content: center;
+    margin: 15%;
+  }
+  .ring-product{
+    display: flex;
+    justify-content: center;
+    margin:15% ;
+  }
+  .caja-factura-cart{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 5px;
+    align-items: center;
+  }
+  .caja-envio{
+    width: 220px;
+  }
+  .link-volver{
+    font-weight: 700;
+    background-color: black;
+    text-decoration: none;
+    color: beige;
+    padding: 8px;
+    border-radius: 10px;
+  }
+  .link-volver:hover{
+    color: beige;
+  }
+  .caja-comprar-dos{
+    text-align: center;
+  }
+  .div-checkout{
+    border-radius: 40px;
+    font-weight: 700;
+  }
+  /* estilos del componente CartDetail */
+  .container-cart-detail{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 2px solid black;
+    margin: 5px;
+  }
+  .img-cart{
+    width: 60px;
+    height: 60px;
+  }
+}
+@media (min-width:768px){
+  /* estilos del navbar */
+  div ul li{
+    padding: 5px 15px;
+  }
+  .icono-cart-cantidad{
+    top: -30%;
+    left: 55px;
+  }
+  .container-form{
+    text-align: left;
+    padding: 60px 80px;
+    margin: 15px 0px;
+  }
+  input{
+    padding:10px 60px;
+  }
+  .conteiner-phone{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px 5px;
+    width: 250px;
+  }
+  .conteiner-phone:hover{
+    background-color:#ade8f4;
+  }
+  .picture-cart-vacio{
+    width: 650px;
+  }
+  .ring{
+    margin: 18%;
+  }
+  .ring-product{
+    margin: 16%;
+  }
+  .container-cart-detail{
+    justify-content:space-around;
+    margin: 5px 15px;
+  }
+  .img-cart{
+    width: 100px;
+    height: 100px;
+  }
+  .btn-vaciar-cart{
+    margin-left:15px;
+  }
+}
